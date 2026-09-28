@@ -1,0 +1,8 @@
+project: savantenvs/s2geometry
+target: s2-fuzzer-buggy-mhh-run-8
+
+# origin: https://app.mayhem.security/mayhemheroes/s2geometry/s2-fuzzer/8
+
+cmds:
+  - cmd: /mayhem/s2_fuzzer
+    libfuzzer: true
